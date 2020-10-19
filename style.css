@@ -66,12 +66,10 @@ header{
 }
 .client{
     display: inline-block;
-    position: relative;
 }
 .client-box{
     display: inline-block;
     width: 23.3%;
-    height: 14.3rem;
     background-color: hsl(300, 43%, 22%);
     border-radius: 0.4rem;
     padding: 2%;
@@ -80,39 +78,38 @@ header{
 }
 .client-box h3{
     color: white;
-    display: inline;
-    float: right;
-    margin-right: 39.67%;
-    margin-top: 1.3333rem;
-    font-size: medium;
+    display: block;
 }
 .client-box h5{
     display: inline;
-    float: right;
-    margin-right: 44.67%;
     color: hsl(333, 80%, 67%);
-    position: relative;
-    bottom: 3.7rem;
+    font-weight: 400;
+    font-size: medium;
 }
 .client-box p{
     color:white;
     display: inline-block;
-    position: relative;
-    bottom: 3.53rem;
     line-height: 1.6;
+    font-weight: 400;
+    word-spacing: 0.133rem;
 }
 .client-box img{
+    float: left;
     border-radius: 50%;
-    transform: scale(0.7);
+    transform: scale(0.8);
+    margin-right: 0.667em;
 }
-
+.header-client{
+    float: left;
+    line-height: 0.5;
+}
 .irene{
     position: relative;
-    top: 2rem;
+    top: 25px;
 }
-.anne{  
+.anne{ 
     position: relative;
-    top:4rem;
+    top: 50px; 
 }
 .clear{
     clear: both;
